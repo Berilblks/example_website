@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <! sayfa yapısı pencere küçültünce bozulmaz.>
+    <head>
+        <title> Basic Html website </title>
+        <style>
+            html{
+                min-height: 100vh;
+                margin: 10px;
+                padding: 0;
+                border: 2px solid black;
+            }
+            body{
+                margin-top: 20px;
+                margin-left: 50px;
+                margin-right: 50px
+            }
+            .ilk{
+                display: flex;
+                justify-content: space-between;
+            }
+            h1{
+                font-style: italic;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+                text-align: center;
+            }
+            h5{
+                color: darkgray;
+                text-align: center;
+            }
+            hr{
+                background-color: black;
+                height: 2px;
+                margin-left: -50px;
+                margin-right: -50px;
+            }
+            .kutu1{
+                display: block;
+                margin-top: -10px;
+                margin-left: -50px;
+                width: 450px;
+                height: 400px;
+                border: 2px solid black;
+                border-left: 2px solid transparent;
+                border-top: 2px solid transparent;
+            }
+            h4{
+                margin-left: 20px;
+                font-style: italic;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            }
+            .kutular {
+                display: flex;
+                gap: 0;
+            }
+            p{
+                margin-left: 20PX;
+            }
+            .kutu1 hr{
+                background-color: black;
+                height: 2px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .kutu2{
+                margin-top: -10px;
+                padding: 0;
+                width: 700px;
+                height: 400px;
+                border: 2px solid black;
+                border-left: 2px solid transparent;
+                border-top: 2px solid transparent;
+            }
+            h6{
+                margin-left: 20px;
+                font-style: italic;
+                font-family: cursive;
+            }
+            h7{
+                margin-left: 20px;
+                color: dodgerblue;
+            }
+            .kutu2 hr{
+                margin-top: 20px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .kutu3{
+                margin-right: -50px;
+                border: 2px solid black;
+                border-left: 2px solid transparent;
+                border-right: 2px solid transparent;
+                border-top: 2px solid transparent;
+            }
+            .yuvarlaklar{
+                display: flex;
+                gap: 50px;
+            }
+            .y{
+                margin-left: 50px;
+                width: 350px;
+                height: 200px;
+                border-radius: 20%;
+                border: 2px solid black;
+            }
+            .name{
+                margin-left: 20px;
+                color: rgb(160, 160, 160);
+            }
+            footer{
+                text-align: center;
+                padding: 10px;
+            }
+        </style>
+    
+    </head>
+
+    <body>
+        <div class="ilk">
+            <span> Beril Bölükbaşı </span>
+            <span> Home / Projects / Articles / Contact </span>
+        </div>
+        <br>
+        <h1> Frontend Developer </h1>
+        <h5> html only with proper layout, no styling </h5>
+        <br>
+        <hr>
+        <div class="kutular">
+            <div class="kutu1">
+                <h4> Projects </h4>
+                <p> HTML Only Portfolio </p>
+                <hr>
+                <p> Calculator </p>
+                <hr>
+                <p> Quiz App </p> 
+                <hr>
+                <p> Countdown Timer </p>
+                <hr>
+                <p> Product Upcoming Page </p>
+            </div>
+            <div class="kutu2"> 
+                <h4> Work Experience </h4>
+                <h6> roadmap.sh </h6>
+                <p> Solved all the frontend projects </p>
+                <h7> Visit my profile </h7>
+                <hr>
+                <h6> OpenSource Work</h6>
+                <p> Contributed to 50 opensource projects. made my own projects with 200 github stars.</p>
+                <h7> Visit my Github Profile </h7>
+            </div>
+            <div class="kutu3">
+                <h4> Education </h4>
+                <p> Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon Organized 30 sessions. </p>
+                <p> Courses I took: </p>
+                <ul>
+                    <li> Object oriented programming </li>
+                    <li> Data structures and algorithms </li>
+                    <li> Web engineering </li>
+                    <li> Artificial İntelligence </li>
+                    <li> Human computer intraction </li>
+                    <li> Computer graphics </li>
+                    <li> Database management systems </li>
+                    <li> Distributed database systems </li>
+                    <li> Discreet mathematicts </li>
+                </ul>
+            </div>
+        </div>
+        <h4> Reviews from my teachers </h4>
+        <div class="yuvarlaklar">
+            <div class="y">
+                <br>
+                <p> John doe was a brillant student: always stood out with his assignments. </p>
+                <p class="name"> Jane Doe </p>
+                <p class="name"> Assistant Professor</p>
+            </div>
+            <div class="y">
+                <br>
+                <p> John doe was a brillant student: always stood out with his assignments. </p>
+                <p class="name"> Jane Doe </p>
+                <p class="name"> Assistant Professor</p>
+            </div>
+            <div class="y">
+                <br>
+                <p> John doe was a brillant student: always stood out with his assignments. </p>
+                <p class="name"> Jane Doe </p>
+                <p class="name"> Assistant Professor</p>
+            </div>
+        </div>
+        <br>
+        <footer>
+            <h6>&copy; all right reserved by beril bölükbaşı </h6>
+        </footer>
+    </body>
+</html>
